@@ -87,3 +87,6 @@ def plus(n1, m1, matrix1, n2, m2, matrix2):
         for j in range(m1):
             result[i][j] = matrix1[i][j] + matrix2[i][j]
     return result
+
+def print(text1, text2):
+    print(text1 + " " + text2)
